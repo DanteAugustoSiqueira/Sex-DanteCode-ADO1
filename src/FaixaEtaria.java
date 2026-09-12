@@ -1,6 +1,4 @@
 
-package enums;
-
 public enum FaixaEtaria {
     CRIANCA("crianca", "0-12"),
     ADOLESCENTE("adolescente", "13-18"),

@@ -1,6 +1,4 @@
 
-package enums;
-
 public enum Categoria {
     DOCE("chocolate", "baunilha"),
     SALGADO("coxinha", "pao de queijo");

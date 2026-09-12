@@ -1,6 +1,4 @@
 
-import classes.Cliente;
-
 public class ExecutarLanchonete {
     public static void main(String[] args) throws Exception {
         Cliente cl1 = new Cliente();

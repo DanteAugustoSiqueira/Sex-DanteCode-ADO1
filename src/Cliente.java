@@ -1,15 +1,17 @@
 
-package classes;
-
 public class Cliente {
     private String nome;
     private String cpf;
     private FaixaEtaria faixaEtaria;
+    private Categoria categoria;
+    
+    // Precisa deste constructor "vazio",
+    // para o new Cliente() do ExecutarLanchonete.
+    public Cliente() {}
 
-    private Cliente(String nome, String cpf, FaixaEtaria faixaEtaria) {
+    public Cliente(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
-        this.faixaEtaria = faixaEtaria;
     }
 
     public String getNome() {
@@ -34,5 +36,13 @@ public class Cliente {
 
     public void setFaixaEtaria(FaixaEtaria faixaEtaria) {
         this.faixaEtaria = faixaEtaria;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 }
