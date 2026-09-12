@@ -1,8 +1,8 @@
 
 public enum FaixaEtaria {
-    CRIANCA("crianca", "0-12"),
-    ADOLESCENTE("adolescente", "13-18"),
-    ADULTO("adulto", "+18");
+    CRIANCA("crianca", "0-12 anos"),
+    ADOLESCENTE("adolescente", "13-18 anos"),
+    ADULTO("adulto(a)", "+18 anos");
 
     private String descricao;
     private String entre;

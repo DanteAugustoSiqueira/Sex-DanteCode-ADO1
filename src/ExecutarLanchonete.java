@@ -12,31 +12,49 @@ public class ExecutarLanchonete {
         cl2.setCategoria(Categoria.SALGADO);
 
         System.out.println(
-            "Meu nome: " + 
+            "Meu nome é: " + 
             cl1.getNome() + 
             ", sou " + 
             cl1.getFaixaEtaria().getDescricao() + 
-            "(idade entre " + 
+            " (" + 
             cl1.getFaixaEtaria().getEntre() + 
             ")" + 
-            ", comprei dois doces: 1. " + 
+            ", e comprei dois doces: 1. " + 
             cl1.getCategoria().getOpcaoPopular() + 
             " e 2. " + 
-            cl1.getCategoria().getOutraOpcao()
+            cl1.getCategoria().getOutraOpcao() +
+            "."
         );
 
         System.out.println(
-            "Meu nome: " + 
+            "Meu nome é: " + 
             cl2.getNome() + 
             ", sou " + 
             cl2.getFaixaEtaria().getDescricao() + 
-            "(idade entre " + 
+            " (" + 
             cl2.getFaixaEtaria().getEntre() + 
             ")" + 
-            ", comprei dois salgados: 1. " + 
+            ", e comprei dois salgados: 1. " + 
             cl2.getCategoria().getOpcaoPopular() + 
             " e 2. " + 
-            cl2.getCategoria().getOutraOpcao()
+            cl2.getCategoria().getOutraOpcao() +
+            "."
         );
+
+        VetorLanchonete vetor = new VetorLanchonete(2);
+
+        vetor.addLanche("Coxinha");
+        vetor.addLanche("Pao de queijo");
+        vetor.addLanche("Esfiha de calabresa");
+
+        System.out.println("Busca lanche: " + vetor.buscaValor(0));
+
+        System.out.println("Busca indice: " + vetor.buscaIndice("Pao de queijo"));
+
+        System.out.println("Quantidade de dados no vetor: " + vetor.adicionaInicio(1, "Croassaint"));
+
+        System.out.println("Quantidade de dados no vetor: " + vetor.qtdaLanches());
+
+        System.out.println("Dados do vetor: " + vetor.toString());
     }
 }

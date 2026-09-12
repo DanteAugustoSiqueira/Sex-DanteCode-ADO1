@@ -1,0 +1,27 @@
+
+// ADO 01
+
+-----!-----!-----!-----!-----
+
+* - - Minha lanchonete. - - *
+
+Dante Augsuto Siqueira.
+
+-----!-----!-----!-----!-----
+
+// ▹Desenvolver uma aplicação utilizando a linguagem JAVA e os conceitos da Aula 02 e Aula 03, sobre Array e manipulação de dados.
+
+// ▹Descrever a situação e/ou problema (tema livre);
+
+// ▹Criar uma Classe Vetor com todos os métodos para manipular os dados;
+
+// ▹Criar uma Classe (que terá a lista de atributos ou informações para atender a situação / e/ou problema - 
+// Exemplo na aula 03 - classe contato) com todos os métodos para manipular os dados;
+
+// ▹Criar uma Classe para testar a aplicação, possibilitando a interação com o usuário, 
+// para manipular os dados permitindo as opções para (Incluir, pesquisar, alterar e excluir os dados armazenados no vetor;
+
+// Observações:
+// * Enviar a descrição da situação e/ou problema e os códigos das classes utilizadas para a solução em um arquivo no formato .PDF.
+// * Enviar as classes no formato .java (se necessário pode ser em arquivo compactado).
+// * NÃO É PERMITIDO UTILIZAR A API ARRAYLIST
