@@ -1,14 +1,14 @@
 
-public enum Categorias {
+package enums;
+
+public enum Categoria {
     DOCE("chocolate", "baunilha"),
     SALGADO("coxinha", "pao de queijo");
 
     private String opcaoPopular;
     private String outraOpcao;
 
-    private Categorias() {}
-
-    private Categorias(String opcaoPopular, String outraOpcao) {
+    private Categoria(String opcaoPopular, String outraOpcao) {
         this.opcaoPopular = opcaoPopular;
         this.outraOpcao = outraOpcao;
     }
