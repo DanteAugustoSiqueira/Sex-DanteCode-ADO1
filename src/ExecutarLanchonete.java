@@ -41,7 +41,7 @@ public class ExecutarLanchonete {
             "."
         );
 
-        VetorLanchonete vetor = new VetorLanchonete(2);
+        VetorLanchonete vetor = new VetorLanchonete(4);
 
         vetor.addLanche("Coxinha");
         vetor.addLanche("Pao de queijo");
@@ -51,10 +51,10 @@ public class ExecutarLanchonete {
 
         System.out.println("Busca indice: " + vetor.buscaIndice("Pao de queijo"));
 
-        System.out.println("Quantidade de dados no vetor: " + vetor.adicionaInicio(1, "Croassaint"));
+        System.out.println("Adicionar lanche no vetor: " + vetor.adicionaInicio(1, "Croassaint"));
 
-        System.out.println("Quantidade de dados no vetor: " + vetor.qtdaLanches());
+        System.out.println("Quantidade de lanches no vetor: " + vetor.qtdaLanches());
 
-        System.out.println("Dados do vetor: " + vetor.toString());
+        System.out.println("Dados do vetor de lanches: " + vetor.toString());
     }
 }
